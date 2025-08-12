@@ -108,6 +108,7 @@ export default function CollagePage() {
   alt={product.name}
   width={96}
   height={96}
+  unoptimized            
   className="object-cover rounded mb-2 mx-auto"
   onError={() => toast.error(`Failed to load image for ${product.name}`)}
 />
